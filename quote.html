@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Get a free quote | Silk Bridge HQ</title>
+<meta name="description" content="Request a free price comparison from Silk Bridge HQ. Tell us what you need in two minutes and we'll come back with factory prices from checked manufacturers in China.">
+<link rel="icon" href="assets/img/logo-square.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=Noto+Serif+SC:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="Silk Bridge HQ home">
+      <svg viewBox="0 0 44 30" fill="none" aria-hidden="true"><path d="M4 22 Q22 -2 40 22" stroke="#E7C65A" stroke-width="3" stroke-linecap="round"/><g stroke="#E7C65A" stroke-width="1.6"><line x1="13" y1="22" x2="13" y2="12"/><line x1="18" y1="22" x2="18" y2="8.5"/><line x1="22" y1="22" x2="22" y2="7.5"/><line x1="26" y1="22" x2="26" y2="8.5"/><line x1="31" y1="22" x2="31" y2="12"/></g><line x1="1" y1="22.5" x2="43" y2="22.5" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/><path d="M6 27 Q14 24.5 22 27 T38 27" stroke="#8C9AB3" stroke-width="1.6" stroke-linecap="round"/></svg>
+      <span class="wm">SILK BRIDGE<small>HQ</small></span><span class="zh">丝桥</span>
+    </a>
+    <button class="menu-btn" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="how-it-works.html">How it works</a>
+      <a href="about.html">About</a>
+      <a class="btn" href="quote.html">Get a quote <span class="arr">→</span></a>
+    </nav>
+  </div>
+</header>
+<main>
+
+<section class="page-hero grain" style="padding-bottom:150px">
+  <div class="aurora"></div>
+  <div class="wrap">
+    <span class="eyebrow">Free quote</span>
+    <h1 data-split>Factory prices in <em>three quick steps.</em></h1>
+    <p>Takes about two minutes. Free, no obligation, and rough details are fine.</p>
+  </div>
+</section>
+
+<div class="wrap quote-wrap">
+  <div class="qcard">
+    <div class="progress" aria-hidden="true">
+      <div class="on"><div class="bar"><i></i></div><small>1 · Product</small></div>
+      <div><div class="bar"><i></i></div><small>2 · Quantity</small></div>
+      <div><div class="bar"><i></i></div><small>3 · Your details</small></div>
+    </div>
+
+    <form id="quote-form" novalidate>
+      <!-- Step 1 -->
+      <div class="qstep show">
+        <h3>What do you need?</h3>
+        <p>Pick a category, then describe it in your own words.</p>
+        <div class="field">
+          <div class="choice-grid nine" role="radiogroup" aria-label="Category">
+            <label class="choice"><input type="radio" name="category" value="furniture"><img src="assets/img/furniture.svg" alt=""><div><b>Commercial furniture</b></div></label>
+            <label class="choice"><input type="radio" name="category" value="packaging"><img src="assets/img/packaging.svg" alt=""><div><b>Custom packaging</b></div></label>
+            <label class="choice"><input type="radio" name="category" value="pet"><img src="assets/img/pet.svg" alt=""><div><b>Pet products</b></div></label>
+            <label class="choice"><input type="radio" name="category" value="homewares"><img src="assets/img/homewares.svg" alt=""><div><b>Homewares kitchenware</b></div></label>
+            <label class="choice"><input type="radio" name="category" value="hospitality"><img src="assets/img/hospitality.svg" alt=""><div><b>Hospitality supplies</b></div></label>
+            <label class="choice"><input type="radio" name="category" value="fitness"><img src="assets/img/fitness.svg" alt=""><div><b>Fitness recreation</b></div></label>
+            <label class="choice"><input type="radio" name="category" value="construction"><img src="assets/img/construction.svg" alt=""><div><b>Construction site supplies</b></div></label>
+            <label class="choice"><input type="radio" name="category" value="merch"><img src="assets/img/merch.svg" alt=""><div><b>Branded merchandise</b></div></label>
+            <label class="choice"><input type="radio" name="category" value="other"><div class="ico">＋</div><div><b>Something else</b></div></label>
+          </div>
+        </div>
+        <div class="field">
+          <label for="what">Describe what you need</label>
+          <textarea id="what" name="what" required></textarea>
+          <div class="hint">Sizes, materials, colours, branding: whatever you know. Got drawings or photos? You can send them when we reply.</div>
+        </div>
+        <div class="field">
+          <label for="link">Link to a similar product <span class="opt">(optional)</span></label>
+          <input type="text" id="link" name="link" placeholder="e.g. a product you buy now, or one you like">
+        </div>
+        <p class="err" role="alert"></p>
+        <div class="qnav"><span></span><button type="button" class="btn gold lg" data-next>Next →</button></div>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="qstep">
+        <h3>How many, and when?</h3>
+        <p>Best guesses are fine. Skip anything you're not sure about.</p>
+        <div class="field">
+          <span class="lbl">Roughly how many?</span>
+          <div class="chips">
+            <label class="chip"><input type="radio" name="quantity" value="Under 100"><span>Under 100</span></label>
+            <label class="chip"><input type="radio" name="quantity" value="100–500"><span>100–500</span></label>
+            <label class="chip"><input type="radio" name="quantity" value="500–2,000"><span>500–2,000</span></label>
+            <label class="chip"><input type="radio" name="quantity" value="2,000–10,000"><span>2,000–10,000</span></label>
+            <label class="chip"><input type="radio" name="quantity" value="10,000+"><span>10,000+</span></label>
+            <label class="chip"><input type="radio" name="quantity" value="Not sure"><span>Not sure</span></label>
+          </div>
+        </div>
+        <div class="field">
+          <label for="qty_exact">Exact quantities <span class="opt">(optional)</span></label>
+          <input type="text" id="qty_exact" name="qty_exact" placeholder="e.g. 40 chairs, 10 tables">
+        </div>
+        <div class="field">
+          <span class="lbl">When do you need it?</span>
+          <div class="chips">
+            <label class="chip"><input type="radio" name="timing" value="As soon as possible"><span>ASAP</span></label>
+            <label class="chip"><input type="radio" name="timing" value="1–3 months"><span>1–3 months</span></label>
+            <label class="chip"><input type="radio" name="timing" value="3–6 months"><span>3–6 months</span></label>
+            <label class="chip"><input type="radio" name="timing" value="Ongoing / regular orders"><span>Ongoing</span></label>
+            <label class="chip"><input type="radio" name="timing" value="Just comparing prices"><span>Just comparing</span></label>
+          </div>
+        </div>
+        <div class="row2">
+          <div class="field">
+            <label for="state">Deliver to</label>
+            <select id="state" name="state">
+              <option value="">Choose a state</option>
+              <option>VIC</option><option>NSW</option><option>QLD</option><option>WA</option><option>SA</option><option>TAS</option><option>ACT</option><option>NT</option><option>Outside Australia</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="current_price">What do you pay now? <span class="opt">(optional)</span></label>
+            <input type="text" id="current_price" name="current_price" placeholder="e.g. $85 per chair">
+          </div>
+        </div>
+        <p class="err" role="alert"></p>
+        <div class="qnav"><button type="button" class="back" data-back>← Back</button><button type="button" class="btn gold lg" data-next>Next →</button></div>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="qstep">
+        <h3>Where should we send your quote?</h3>
+        <p>We'll only use these details to reply about your quote.</p>
+        <div class="row2">
+          <div class="field"><label for="name">Your name</label><input type="text" id="name" name="name" autocomplete="name" required></div>
+          <div class="field"><label for="company">Company <span class="opt">(optional)</span></label><input type="text" id="company" name="company" autocomplete="organization"></div>
+        </div>
+        <div class="row2">
+          <div class="field"><label for="email">Email</label><input type="email" id="email" name="email" autocomplete="email" required></div>
+          <div class="field"><label for="phone">Phone <span class="opt">(optional)</span></label><input type="tel" id="phone" name="phone" autocomplete="tel"></div>
+        </div>
+        <div class="field">
+          <span class="lbl">Best way to reach you</span>
+          <div class="chips">
+            <label class="chip"><input type="radio" name="contact_pref" value="Email" checked><span>Email</span></label>
+            <label class="chip"><input type="radio" name="contact_pref" value="Phone call"><span>Phone call</span></label>
+            <label class="chip"><input type="radio" name="contact_pref" value="Either"><span>Either</span></label>
+          </div>
+        </div>
+        <div class="field">
+          <span class="lbl">Your request</span>
+          <dl class="summary" id="summary"></dl>
+        </div>
+        <label class="hp" aria-hidden="true">Leave this empty <input type="checkbox" name="botcheck" tabindex="-1"></label>
+        <p class="err" role="alert"></p>
+        <div class="qnav"><button type="button" class="back" data-back>← Back</button><button type="submit" class="btn gold lg">Send my request</button></div>
+        <p class="muted" style="font-size:13px;margin:16px 0 0">By sending, you agree we can contact you about this request. See our <a href="privacy.html">privacy notice</a>.</p>
+      </div>
+    </form>
+
+    <div class="done" id="done" style="display:none">
+      <div class="big-tick"><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg></div>
+      <h3 style="font-size:26px;margin-bottom:8px">Thanks, we've got it.</h3>
+      <p class="muted" style="max-width:440px;margin:0 auto 10px">Your reference is <b id="done-ref"></b>. We'll be in touch within 1–2 business days with next steps.</p>
+      <p class="muted" id="done-mail" style="display:none;max-width:440px;margin:10px auto 0;font-size:14px">Your email app should have opened with your request filled in. <b>Press send</b> to get it to us. Nothing opened? Email <a href="mailto:jacob@silkbridgehq.com">jacob@silkbridgehq.com</a>.</p>
+      <p style="margin-top:24px"><a class="btn ghost" href="index.html">Back to home</a></p>
+    </div>
+  </div>
+
+  <aside class="side">
+    <div class="box">
+      <h4>What happens next</h4>
+      <ol>
+        <li><b>We read your request</b> and may ask a quick question.</li>
+        <li><b>We approach checked factories</b> for prices.</li>
+        <li><b>You get a side-by-side comparison</b> with prices, minimum orders and lead times.</li>
+      </ol>
+    </div>
+    <div class="box">
+      <h4>Free, no obligation</h4>
+      <p>You only pay a commission if you decide to order, and we agree it with you upfront.</p>
+    </div>
+    <div class="box dark">
+      <h4>Prefer to email?</h4>
+      <p>Send your list, spec sheet or photos to <a href="mailto:jacob@silkbridgehq.com">jacob@silkbridgehq.com</a></p>
+    </div>
+  </aside>
+</div>
+</main>
+<footer class="grain">
+  <div class="wrap">
+    <p class="big" aria-hidden="true">Silk <em>Bridge</em></p>
+    <div class="cols">
+      <div>
+        <h4>Silk Bridge HQ</h4>
+        <p style="margin:0 0 10px;max-width:300px">Factory-direct sourcing from China for Australian businesses. Melbourne, Australia.</p>
+        <p class="zh" style="color:#E7C65A;font-size:16px;margin:0">丝桥：为澳大利亚企业提供中国采购服务</p>
+      </div>
+      <div><h4>Products</h4><ul>
+        <li><a href="products.html#furniture">Commercial furniture</a></li>
+        <li><a href="products.html#packaging">Packaging</a></li>
+        <li><a href="products.html#pet">Pet products</a></li>
+        <li><a href="products.html#homewares">Homewares &amp; kitchenware</a></li>
+        <li><a href="products.html#hospitality">Hospitality supplies</a></li>
+        <li><a href="products.html#fitness">Fitness &amp; recreation</a></li>
+        <li><a href="products.html#construction">Construction &amp; site supplies</a></li>
+        <li><a href="products.html#merch">Branded merchandise</a></li>
+      </ul></div>
+      <div><h4>Company</h4><ul>
+        <li><a href="how-it-works.html">How it works</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="how-it-works.html#faq">FAQ</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+      </ul></div>
+      <div><h4>Contact</h4><ul>
+        <li><a href="quote.html">Request a quote</a></li>
+        <li><a href="mailto:jacob@silkbridgehq.com">jacob@silkbridgehq.com</a></li>
+        <li>Melbourne, Australia</li>
+      </ul></div>
+    </div>
+    <div class="base">
+      <span>© 2026 Silk Bridge HQ · ABN 32 535 235 171</span>
+      <span>Manufacturers: email your business licence and product list to jacob@silkbridgehq.com</span>
+    </div>
+  </div>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>

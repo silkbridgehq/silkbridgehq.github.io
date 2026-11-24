@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustration of packaging: stacked printed mailer boxes, poly mailer and tape">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E6EBF3"/><stop offset="1" stop-color="#F3EEDF"/></linearGradient>
+    <linearGradient id="kraftTop" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E2C08A"/><stop offset="1" stop-color="#D4AC6E"/></linearGradient>
+    <linearGradient id="mailer" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1F3B68"/><stop offset="1" stop-color="#14284B"/></linearGradient>
+  </defs>
+  <style>*{transform-box:fill-box}@media (prefers-reduced-motion:reduce){*{animation:none!important}}.float{animation:float 4.5s ease-in-out infinite}@keyframes float{50%{transform:translateY(-10px)}}.mailer{transform-origin:50% 100%;animation:tilt 6s ease-in-out infinite}@keyframes tilt{50%{transform:rotate(-2.5deg) translateY(-6px)}}.tape{animation:float 5.5s ease-in-out infinite .8s}</style>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <path d="M0 470 L800 450 L800 600 L0 600 Z" fill="#DCE3EE"/>
+  <ellipse cx="330" cy="500" rx="250" ry="26" fill="#14284B" opacity=".09"/>
+
+  <!-- back large kraft carton -->
+  <g>
+    <path d="M150 230 L330 190 L470 230 L290 270 Z" fill="url(#kraftTop)"/>
+    <path d="M150 230 L290 270 L290 470 L150 430 Z" fill="#C99A57"/>
+    <path d="M290 270 L470 230 L470 430 L290 470 Z" fill="#B88947"/>
+    <path d="M220 214 L400 252" stroke="#E7C65A" stroke-width="16" opacity=".85"/>
+    <rect x="320" y="320" width="110" height="70" rx="6" fill="#fff" transform="skewY(-12.5)" opacity=".95"/>
+  </g>
+
+  <!-- navy printed mailer boxes stacked, front -->
+  <g transform="translate(330 300)">
+    <path d="M0 40 L130 10 L240 40 L110 70 Z" fill="#2A4A7E"/>
+    <path d="M0 40 L110 70 L110 160 L0 130 Z" fill="url(#mailer)"/>
+    <path d="M110 70 L240 40 L240 130 L110 160 Z" fill="#0F1F3B"/>
+    <!-- printed bridge logo -->
+    <path d="M140 110 Q175 62 210 100" stroke="#E7C65A" stroke-width="5" fill="none" stroke-linecap="round" transform="skewY(-13)"/>
+    <line x1="134" y1="116" x2="216" y2="98" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g class="float"><g transform="translate(360 222)">
+    <path d="M0 40 L110 15 L200 40 L90 65 Z" fill="#E7C65A"/>
+    <path d="M0 40 L90 65 L90 128 L0 103 Z" fill="#C9A227"/>
+    <path d="M90 65 L200 40 L200 103 L90 128 Z" fill="#B08D1E"/>
+    <path d="M120 90 Q145 56 172 82" stroke="#14284B" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+
+  </g>
+  <!-- poly mailer -->
+  <g class="mailer"><g transform="rotate(-8 640 360)">
+    <rect x="560" y="250" width="170" height="220" rx="14" fill="#F7F7F2" stroke="#14284B" stroke-width="3"/>
+    <rect x="560" y="250" width="170" height="38" rx="14" fill="#E7E5DC"/>
+    <line x1="575" y1="288" x2="715" y2="288" stroke="#14284B" stroke-width="2" stroke-dasharray="6 6"/>
+    <rect x="585" y="320" width="120" height="70" rx="8" fill="#fff" stroke="#CBD2DC" stroke-width="2"/>
+    <rect x="597" y="334" width="70" height="8" rx="4" fill="#14284B"/>
+    <rect x="597" y="350" width="94" height="6" rx="3" fill="#CBD2DC"/>
+    <rect x="597" y="364" width="80" height="6" rx="3" fill="#CBD2DC"/>
+    <rect x="585" y="410" width="120" height="30" rx="6" fill="#14284B"/>
+    <g fill="#fff"><rect x="595" y="418" width="3" height="14"/><rect x="602" y="418" width="2" height="14"/><rect x="608" y="418" width="4" height="14"/><rect x="616" y="418" width="2" height="14"/><rect x="622" y="418" width="3" height="14"/><rect x="630" y="418" width="2" height="14"/><rect x="636" y="418" width="4" height="14"/><rect x="644" y="418" width="2" height="14"/><rect x="650" y="418" width="3" height="14"/><rect x="658" y="418" width="2" height="14"/><rect x="664" y="418" width="4" height="14"/><rect x="672" y="418" width="2" height="14"/><rect x="678" y="418" width="3" height="14"/><rect x="686" y="418" width="2" height="14"/><rect x="692" y="418" width="4" height="14"/></g>
+  </g>
+
+  </g>
+  <!-- tape roll -->
+  <g class="tape"><g transform="translate(110 470)">
+    <ellipse cx="0" cy="0" rx="46" ry="20" fill="#C9A227"/>
+    <rect x="-46" y="-22" width="92" height="22" fill="#C9A227"/>
+    <ellipse cx="0" cy="-22" rx="46" ry="20" fill="#E7C65A"/>
+    <ellipse cx="0" cy="-22" rx="20" ry="9" fill="#DCE3EE"/>
+  </g>
+</g>
+  </svg>

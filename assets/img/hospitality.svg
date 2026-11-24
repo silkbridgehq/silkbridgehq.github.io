@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustration of hospitality supplies: wine glasses, plate with cloche, cutlery and napkin">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E9EEF5"/><stop offset="1" stop-color="#F3EEDF"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E7C65A"/><stop offset="1" stop-color="#C9A227"/></linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2A4A7E"/><stop offset="1" stop-color="#14284B"/></linearGradient>
+  </defs>
+  <style>*{transform-box:fill-box}@media (prefers-reduced-motion:reduce){*{animation:none!important}}@keyframes float{50%{transform:translateY(-10px)}}@keyframes sway{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}@keyframes steam{0%{opacity:0;transform:translateY(8px)}40%{opacity:.7}100%{opacity:0;transform:translateY(-22px)}}.cloche{animation:lift 4.5s ease-in-out infinite}@keyframes lift{0%,55%,100%{transform:translateY(0)}70%,85%{transform:translateY(-34px)}}.glass{transform-origin:50% 100%;animation:sway 6s ease-in-out infinite}.g2{animation-delay:-2s}</style>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <path d="M0 455 L800 435 L800 600 L0 600 Z" fill="#DCE3EE"/>
+
+  <path d="M60 400 L740 380 L760 470 L40 490 Z" fill="#F7F3E8" stroke="#E6DECB" stroke-width="2"/>
+  <ellipse cx="400" cy="400" rx="150" ry="30" fill="#14284B" opacity=".12"/>
+  <ellipse cx="400" cy="392" rx="140" ry="26" fill="#fff" stroke="#CBD2DC" stroke-width="2"/>
+  <ellipse cx="400" cy="388" rx="60" ry="12" fill="#C9A227" opacity=".8"/>
+  <g class="cloche"><path d="M285 385 Q290 260 400 255 Q510 260 515 385 Z" fill="url(#gold)"/><path d="M310 370 Q320 290 400 282" stroke="#fff" stroke-width="6" fill="none" opacity=".45" stroke-linecap="round"/><circle cx="400" cy="246" r="13" fill="#B08D1E"/><rect x="275" y="380" width="250" height="10" rx="5" fill="#B08D1E"/></g>
+  <g class="glass"><path d="M140 230 Q140 310 180 315 Q220 310 220 230 Z" fill="#fff" fill-opacity=".55" stroke="#14284B" stroke-width="3"/><path d="M146 275 Q150 308 180 311 Q210 308 214 275 Z" fill="#7A1F2B" opacity=".75"/><line x1="180" y1="315" x2="180" y2="385" stroke="#14284B" stroke-width="4"/><ellipse cx="180" cy="390" rx="34" ry="8" fill="#14284B"/></g>
+  <g class="glass g2"><path d="M600 220 Q600 300 640 305 Q680 300 680 220 Z" fill="#fff" fill-opacity=".55" stroke="#14284B" stroke-width="3"/><path d="M606 262 Q610 298 640 301 Q670 298 674 262 Z" fill="#E7C65A" opacity=".8"/><line x1="640" y1="305" x2="640" y2="375" stroke="#14284B" stroke-width="4"/><ellipse cx="640" cy="380" rx="34" ry="8" fill="#14284B"/></g>
+  <rect x="250" y="300" width="8" height="90" rx="4" fill="#14284B"/><path d="M244 300 v-34 M254 300 v-34 M264 300 v-34" stroke="#14284B" stroke-width="4" stroke-linecap="round"/>
+  <rect x="542" y="290" width="8" height="100" rx="4" fill="#14284B"/><path d="M546 290 q16 -30 0 -60 q-6 30 0 60" fill="#14284B"/>
+  <path d="M690 420 L760 410 L740 470 L680 475 Z" fill="url(#navy)"/>
+</svg>
